@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap"');
+
+* {
+  box-sizing : border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+.timer-container{
+  background-image: url('https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1531214497/bwknubrsto8uiaispumh.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  /* width: 100vw; */
+  height: 76vh;
+}
+.timer {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* display: flex;
+  flex: column; */
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 7em;
+  padding-top: 2em;
+  width: 100%;
+  height: 100%;
+}
+.timer div:first-child{
+  text-align: center;
+}
+.timer-icon{
+  font-size: 8em;
+}
+h2{
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  color: rgb(247, 0, 152);
+  font-size: 50px;
+}
+
+.timer div:first-child p {
+  color: #f8f8f8;
+  margin-top: 4px;
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.timer div:last-child{
+  /* border: 1px solid #fff; */
+  border-radius: 3px;
+  display: grid;
+  grid-template-columns: repeat(7, 3fr);
+  margin-top: 3em;
+  padding: 3em;
+  text-align: center;
+}
+
+section p:first-child, .timer div:last-child span{
+  font-size: 3em;
+}
+
+@media screen and (max-width: 480px){
+  .timer div:last-child{
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 3em 1em;
+  }
+}
+/* 
+image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.hero-container > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: -100px;
+}
+
+.hero-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+  .hero-container > p {
+    font-size: 30px;
+  }
+} */
